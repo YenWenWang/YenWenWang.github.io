@@ -1,0 +1,34 @@
+
+
+[   
+      
+  {
+  "tag" : "coding",
+  "posts" : [
+      
+      "./temp.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "machine learning",
+  "posts" : [
+      
+      "./temp.html"
+      
+    ]
+  } ,
+    
+      
+  {
+  "tag" : "neural networks",
+  "posts" : [
+      
+      "./temp.html"
+      
+    ]
+  } 
+    
+]
