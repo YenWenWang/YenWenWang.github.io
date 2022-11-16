@@ -4,7 +4,7 @@ description: 'Bioinformatics, evolution and fungi' # this means to ignore newlin
 permalink: ':title:output_ext'
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://yenwenwang.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-logo: "/assets/img/logos/BasidRound.png"
+logo: "/assets/img/logos/BasidWithName.png"
 logo-icon: "/assets/img/logos/BasidRound.png"
 logo-icon-SEO: "/assets/img/logos/BasidRound.png" # must be a non SVG file
 
@@ -20,7 +20,7 @@ logo-icon-SEO: "/assets/img/logos/BasidRound.png" # must be a non SVG file
 # the browser is closed or not)
 night_mode: "auto"
 
-logo-dark: "/assets/img/logos/BasidRound.png"
+logo-dark: "/assets/img/logos/BasidWithName-dark.png"
 highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code highlighter if needed
 
 # Author settings

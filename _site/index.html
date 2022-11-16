@@ -268,15 +268,6 @@
     
         <ul class="tags">
             
-                
-                <li><a href="./tag.html?tag=coding" class="tag">coding <span>(1)</span></a></li>
-            
-                
-                <li><a href="./tag.html?tag=machine+learning" class="tag">machine learning <span>(1)</span></a></li>
-            
-                
-                <li><a href="./tag.html?tag=neural+networks" class="tag">neural networks <span>(1)</span></a></li>
-            
     
         </ul>
 </div>
@@ -356,9 +347,9 @@
     saveThemeData(themeData);
     html.dataset.theme = nightShift ? 'dark' : 'light';
     if (nightShift) {
-        logo.setAttribute("src", "./assets/img/logos/BasidRound.png");
+        logo.setAttribute("src", "./assets/img/logos/BasidWithName-dark.png");
     } else {
-        logo.setAttribute("src", "./assets/img/logos/BasidRound.png");
+        logo.setAttribute("src", "./assets/img/logos/BasidWithName.png");
     }
     setTimeout(function() {
         sw.checked = nightShift ? true : false;

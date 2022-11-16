@@ -376,9 +376,9 @@
     saveThemeData(themeData);
     html.dataset.theme = nightShift ? 'dark' : 'light';
     if (nightShift) {
-        logo.setAttribute("src", "./assets/img/logos/BasidRound.png");
+        logo.setAttribute("src", "./assets/img/logos/BasidWithName-dark.png");
     } else {
-        logo.setAttribute("src", "./assets/img/logos/BasidRound.png");
+        logo.setAttribute("src", "./assets/img/logos/BasidWithName.png");
     }
     setTimeout(function() {
         sw.checked = nightShift ? true : false;
