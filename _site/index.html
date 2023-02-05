@@ -22,7 +22,7 @@
   "headline": "Yen-Wen (Denny) Wang's site",
   "abstract": "",
     "keywords": "",
-    "wordcount": "28",
+    "wordcount": "4",
     "image": ["http://localhost:4000/assets/img"],
   "datePublished": "",
   "dateModified": "",
@@ -62,7 +62,7 @@
 <meta name="twitter:description" content="">
 <meta name="twitter:creator" content="">
 <meta data-rh="true" name="twitter:label1" content="Word count"/>
-<meta data-rh="true" name="twitter:data1" content="28"/>
+<meta data-rh="true" name="twitter:data1" content="4"/>
 <meta name="twitter:image:src" content="http://localhost:4000/assets/img/">
 	<!-- Windows Phone -->
 	<meta name="msapplication-navbutton-color" content="#311e3e">
@@ -232,88 +232,15 @@
 
 
 
-<ol class="post-card-box clearfix">
-  
-</ol>
-
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Slideshow Images</title>
-    <style>
-      .slider {
-        width: 500px;
-        height: 300px;
-        background-color: yellow;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 0px;
-        text-align: center;
-        overflow: hidden;
-      }
-      .image-container {
-        width: 1500px;
-        background-color: pink;
-        height: 300px;
-        clear: both;
-        position: relative;
-        -webkit-transition: left 2s;
-        -moz-transition: left 2s;
-        -o-transition: left 2s;
-        transition: left 2s;
-      }
-      .slide {
-        float: left;
-        margin: 0px;
-        padding: 0px;
-        position: relative;
-      }
-      #slide-1:target ~ .image-container {
-        left: 0px;
-      }
-      #slide-2:target ~ .image-container {
-        left: -500px;
-      }
-      #slide-3:target ~ .image-container {
-        left: -1000px;
-      }
-      .buttons {
-        position: relative;
-        top: -20px;
-      }
-      .buttons a {
-        display: inline-block;
-        height: 15px;
-        width: 15px;
-        border-radius: 50px;
-        background-color: lightgreen;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="slider">
-      <span id="slide-1"></span>
-      <span id="slide-2"></span>
-      <span id="slide-3"></span>
-      <div class="image-container">
-        <img src="/assets/img/404.jpg" class="slide" width="500" height="300" />
-        <img src="/assets/img/Myself_Neon_grey.jpg" class="slide" width="500" height="300" />
-        <img src="/assets/img/Myself_Neon_grey.jpg" class="slide" width="500" height="300" />
-      </div>
-      <div class="buttons">
-        <a href="#slide-1"></a>
-        <a href="#slide-2"></a>
-        <a href="#slide-3"></a>
-      </div>
-    </div>
-  </body>
-</html>
 
 <body>
   <div id="slideshow">
-    <img src="/assets/img/404.jpg">
-    <img src="/assets/img/Myself_Neon_grey.jpg" style="display: none">
-    <img src="/assets/img/Myself_Neon_grey.jpg" style="display: none">
+    <img src="/assets/img/indexslideshow/IMG_4125.jpg" width="900" class="center">
+    <img src="/assets/img/indexslideshow/IMG_5208.jpg" style="display: none" width="900" class="center">
+    <img src="/assets/img/indexslideshow/IMG_4121.jpg" style="display: none" width="900" class="center">
+    <img src="/assets/img/indexslideshow/P1130254.jpg" style="display: none" width="900" class="center">
+    <img src="/assets/img/indexslideshow/P1130244.jpg" style="display: none" width="900" class="center">
   </div>
   <script>
   var slideshow = document.getElementById('slideshow');
@@ -324,9 +251,10 @@
     idx = (idx + 1) % slides.length;
     slides[idx].style.display = 'block';
   }
-  setInterval(changeSlide, 3000);
+  setInterval(changeSlide, 4000);
   </script>
   </body>
+
     <div class="search-box">
   <div class="wrapper">
     <div class="search-grid">

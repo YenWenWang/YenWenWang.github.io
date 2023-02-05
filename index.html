@@ -3,33 +3,15 @@ layout: home-page
 ---
 {% include calculate_relative_base.html %}
 
-<ol class="post-card-box clearfix">
-  {% for post in paginator.posts %}
-  {% include remove_double_slash.html %}
-  <li>
-    <div class="post-card">
-      <a href="{{ post_url }}" title="{{ post.title }}" class="post-card-image" style="background: url('{{ relativebase }}assets/img/{{ post.img }}') center no-repeat; background-size: cover;">
-      </a>
-      <div class="post-card-body">
-        <p class="post-card-title-and-meta">
-          
-          <a href="{{ post_url }}" class="post-card-link">
-          {{ post.title }}
-          </a>
-          {% include post_meta.html type="post-card-meta" date="none" %}
-        </p>
-      </div>
-    </div>
-  </li>
-  {% endfor %}
-</ol>
-
 <!DOCTYPE html>
 
 <body>
   <div id="slideshow">
-    <img src="/assets/img/404.jpg">
-    <img src="/assets/img/indexslideshow/IMG_5208.jpg" style="display: none">
+    <img src="/assets/img/indexslideshow/IMG_4125.jpg" width="900" class="center">
+    <img src="/assets/img/indexslideshow/IMG_5208.jpg" style="display: none" width="900" class="center">
+    <img src="/assets/img/indexslideshow/IMG_4121.jpg" style="display: none" width="900" class="center">
+    <img src="/assets/img/indexslideshow/P1130254.jpg" style="display: none" width="900" class="center">
+    <img src="/assets/img/indexslideshow/P1130244.jpg" style="display: none" width="900" class="center">
   </div>
   <script>
   var slideshow = document.getElementById('slideshow');
@@ -40,6 +22,6 @@ layout: home-page
     idx = (idx + 1) % slides.length;
     slides[idx].style.display = 'block';
   }
-  setInterval(changeSlide, 3000);
+  setInterval(changeSlide, 4000);
   </script>
   </body>
